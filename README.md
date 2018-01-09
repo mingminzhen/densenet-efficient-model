@@ -1,4 +1,4 @@
-# densenet-efficient-model
+# Densenet-efficient-model
 ## Convert 
 In order to obtain the models for the [efficient model](https://github.com/gpleiss/efficient_densenet_pytorch/blob/master/models/densenet_efficient.py) in PyTorch. You need to download the models from originl [Torch models](https://github.com/liuzhuang13/DenseNet). And then convert the torch models to PyTorch models. Then they are converted to efficient models.<br>
 
