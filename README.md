@@ -7,7 +7,7 @@ In order to obtain the models for the [efficient model](https://github.com/gplei
    python convert_efficient.py
 ```
 
-Note: You need to change the function in the main function in convert_efficient.py if you want to convert other models.
+Note: You need to call correspoding function (**Just one line code**) in the main function in **convert_efficient.py** if you want to convert other models.
 
 ## Efficient DenseNet models
 
