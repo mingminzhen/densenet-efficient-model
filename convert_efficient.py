@@ -158,13 +158,13 @@ def densenet_cosine_264_k48_efficient_model():
     return 
 def main():
     ####### convert  densenet_cosine_264_k48 to efficient model
-    # densenet_cosine_264_k48_efficient_model()
+    densenet_cosine_264_k48_efficient_model()
     ####### convert  densenet_cosine_264_k32 to efficient model
     # densenet_cosine_264_k32_efficient_model()
     ####### convert  densenet_232_k48 to efficient model
     # densenet_232_k48_efficient_model()
     ####### convert  densenet_264_k32 to efficient model
-    densenet_264_k32_efficient_model()
+    # densenet_264_k32_efficient_model()
 if __name__ == '__main__':
     main()
 
