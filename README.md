@@ -9,6 +9,51 @@ In order to obtain the models for the [efficient model](https://github.com/gplei
 
 Note: You need to change the function in the main function in convert_efficient.py if you want to convert other models.
 
+## Efficient DenseNet models
+
+### DenseNet-264(k=32)
+```
+    growth_rate = 32
+    block_config=(6,12,64,48)
+    model = DenseNet_Efficient.DenseNetEfficient(num_init_features=64,
+                                                 growth_rate = growth_rate,
+                                                block_config = block_config,
+                                                 num_classes = 1000,
+                                                       cifar = False)
+```
+### DenseNet-232(k=48)
+```
+    growth_rate = 48
+    block_config=(6,12,48,48)
+    model = DenseNet_Efficient.DenseNetEfficient(num_init_features=96,
+                                                 growth_rate = growth_rate,
+                                                block_config = block_config,
+                                                 num_classes = 1000,
+                                                       cifar = False)
+```
+
+### DenseNet-cosine-264 (k=32)
+```
+    growth_rate = 32
+    block_config=(6,12,64,48)
+    model = DenseNet_Efficient.DenseNetEfficient(num_init_features=64,
+                                                 growth_rate = growth_rate,
+                                                block_config = block_config,
+                                                 num_classes = 1000,
+                                                       cifar = False)
+```
+
+### DenseNet-cosine-264 (k=48)
+```
+    growth_rate = 48
+    block_config=(6,12,64,48)
+    model = DenseNet_Efficient.DenseNetEfficient(num_init_features=96,
+                                                 growth_rate = growth_rate,
+                                                block_config = block_config,
+                                                 num_classes = 1000,
+                                                       cifar = False)
+```
+
 ## Validated
 All the models in this table can be converted and the results have been validated.
 
