@@ -1,6 +1,6 @@
 # Densenet-efficient-model
 ## Convert 
-In order to obtain the models for the [efficient model](https://github.com/gpleiss/efficient_densenet_pytorch/blob/master/models/densenet_efficient.py) in PyTorch. You need to download the models from originl [Torch models](https://github.com/liuzhuang13/DenseNet). And then convert the torch models to PyTorch models (You can also use the original [convert_torch.py](https://github.com/clcarwin/convert_torch_to_pytorch)). Then they are converted to efficient models.<br>
+In order to obtain the models for the [efficient model](https://github.com/gpleiss/efficient_densenet_pytorch/blob/master/models/densenet_efficient.py) in [PyTorch](https://github.com/pytorch/pytorch). You need to download the models from originl [Torch models](https://github.com/liuzhuang13/DenseNet). And then convert the torch models to PyTorch models (You can also use the original [convert_torch.py](https://github.com/clcarwin/convert_torch_to_pytorch)). Then they are converted to efficient models.<br>
 
 ```
    python convert_torch.py -m densenet_cosine_264_k48.t7
